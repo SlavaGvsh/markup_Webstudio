@@ -25,6 +25,7 @@ a {
 }
 
 .btn {
+  text-align: center;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.5;
@@ -32,6 +33,13 @@ a {
   border-radius: 12px;
   background-color: #2196f3;
   color: #fff;
+}
+
+.title {
+  font-size: 36px;
+  line-height: 1.3;
+  font-weight: bold;
+  color: #212121;
 }
 
 .header__container {
@@ -125,6 +133,28 @@ main {
   font-weight: bold;
   margin: 0px 0px 10px 0px;
 }
+.about-us {
+  margin: 0px 0px 94px 0px;
+}
+.about-us__title {
+  text-align: center;
+  margin: 0px 0px 50px 0px;
+}
+.about-us__row {
+  display: flex;
+  margin: 0px -15px;
+}
+.about-us__img {
+  flex: 1 1 33.333%;
+  padding: 0px 15px;
+}
+.about-us__img img {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 /* media queries */
 @media (max-width: 1199px) {
   .menu {
