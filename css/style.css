@@ -71,6 +71,13 @@ main {
   flex: 1 1 auto;
 }
 
+.services__bg {
+  background-color: #2F303A;
+}
+.services__title {
+  font: 44px/1.4;
+  color: #fff;
+}
 /* media queries */
 @media (max-width: 1199px) {
   .menu {

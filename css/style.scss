@@ -81,7 +81,7 @@ main {
   // .services__bg
 
   &__bg {
-
+    background-color: #2F303A;
   }
 
   // .services__container
@@ -92,6 +92,8 @@ main {
   // .services__title
 
   &__title {
+    font: 44px/1.4;
+    color: #fff;
   }
 
   // .services__btn
