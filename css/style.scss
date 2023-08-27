@@ -119,6 +119,48 @@ main {
     background-color: #b0d8f8;
   }
 }
+//info-------------------------------------------------------
+.info {
+  // .info__container
+  padding: 94px 0px;
+  &__container {
+  }
+
+  // .info__row
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px -5px;
+  }
+
+  // .info__col
+
+  &__col {
+    padding: 0px 5px;
+  }
+
+  // .info__item
+
+  &__item {
+  }
+
+  // .info__title
+
+  &__title {
+    color: #212121;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.3;
+    font-weight: bold;
+    margin: 0px 0px 10px 0px;
+  }
+
+  // .info__text
+
+  &__text {
+  }
+}
 
 /* media queries */
 
@@ -153,5 +195,15 @@ main {
     &__body {
       padding: 70px 20px;
     }
+  }
+  .info {
+    &__row {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__item {
+      text-align: center;
+    }
+    
   }
 }
