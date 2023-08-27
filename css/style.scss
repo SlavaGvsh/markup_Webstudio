@@ -22,6 +22,16 @@ a {
   margin: 0 auto;
   padding: 0 15px;
 }
+.logo {
+  color: #000;
+  font:
+    26px/1.5 "Raleway",
+    sans-serif;
+  font-weight: 700;
+  &__color {
+    color: #2196f3;
+  }
+}
 .btn {
   text-align: center;
   font-weight: bold;
@@ -32,7 +42,7 @@ a {
   background-color: #2196f3;
   color: #fff;
 }
-.title{
+.title {
   font-size: 36px;
   line-height: 1.3;
   font-weight: bold;
@@ -47,16 +57,7 @@ a {
     width: 100%;
   }
 }
-.logo {
-  color: #000;
-  font:
-    26px/1.5 "Raleway",
-    sans-serif;
-  font-weight: 700;
-  &__color {
-    color: #2196f3;
-  }
-}
+
 .menu {
   margin: 0px 0px 0px 93px;
   display: flex;
@@ -176,7 +177,7 @@ main {
 
   &__container {
   }
-  &__title{
+  &__title {
     text-align: center;
     margin: 0px 0px 50px 0px;
   }
@@ -193,11 +194,60 @@ main {
   &__img {
     flex: 1 1 33.333%;
     padding: 0px 15px;
-    img{
+    img {
       max-width: 100%;
       max-height: 100%;
       object-fit: cover;
     }
+  }
+}
+// footer-------------------------------------------------------
+.footer {
+  // .footer__bg
+  
+  &__bg {
+    background-color: #2f303a;
+    padding: 60px 0px;
+  }
+
+  // .footer__container
+
+  &__container {
+  }
+
+  // .footer__body
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    a{
+      color: #fff;
+    }
+  }
+
+  // .footer__item
+  &__item {
+    margin: 0px 0px 9px 0px;
+    // color: #b0d8f8;
+  }
+  &__item:first-child {
+    margin: 0px 0px 10px 0px;
+  }
+  &__item:last-child {
+    margin: 0px;
+  }
+ 
+  &__item:nth-child(3) {
+    color: #b0d8f8;
+  }
+  &__item:nth-child(4) {
+    color: (255, 255, 255, 0.6);
+  }
+
+  // .footer__address
+
+  &__address {
   }
 }
 
